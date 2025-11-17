@@ -1,0 +1,8 @@
+# Ignorar dependencias
+node_modules/
+
+# Ignorar archivos del editor IntelliJ
+.idea/
+
+# Ignorar archivos de sistema
+.DS_Store
