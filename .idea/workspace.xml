@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4751067-5021-476f-adf1-e382ad183b44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/constants/CartConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/constants/LoginConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/services/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/services/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/services/SaucedemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/steps/CartSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/test/resources/web/features/Cart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lippia-web/src/test/resources/web/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lippia-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/constants/GoogleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/services/GoogleHomeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/services/GoogleSearchResultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/src/main/java/lippia/web/steps/GoogleSearchSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/src/main/resources/browsers/chromeCapabilities.json" beforeDir="false" afterPath="$PROJECT_DIR$/lippia-web/src/main/resources/browsers/chromeCapabilities.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lippia-web/src/test/resources/web/features/googleSearch.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lippia-web" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35JDEW6AUQaoXiRJQVC1O2Vdl5f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: Cart.executor": "Run",
+    "Cucumber Java.Scenario: Inicio de sesion fallido con usuario incorrecto.executor": "Run",
+    "Maven.Run.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Rama/OneDrive/Cursadas/Curso Testing Automation/TP4 - Gabeiras Ramiro",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Maven.Run">
+    <configuration name="Feature: Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/lippia-web/src/test/resources/web/features/Cart.feature" />
+      <option name="GLUE" value="lippia.web.steps com.crowdar.bdd.cukes.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="LippiaWebExampleProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Inicio de sesion fallido con usuario incorrecto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/lippia-web/src/test/resources/web/features/Login.feature" />
+      <option name="GLUE" value="lippia.web.steps com.crowdar.bdd.cukes.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="LippiaWebExampleProject" />
+      <option name="NAME_FILTER" value="^Inicio de sesion fallido con usuario incorrecto$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Inicio de sesion fallido con usuario incorrecto$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Inicio de sesion fallido con usuario incorrecto" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: Cart" />
+        <item itemvalue="Cucumber Java.Scenario: Inicio de sesion fallido con usuario incorrecto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4751067-5021-476f-adf1-e382ad183b44" name="Changes" comment="" />
+      <created>1762819171860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762819171860</updated>
+    </task>
+    <servers />
+  </component>
+</project>
