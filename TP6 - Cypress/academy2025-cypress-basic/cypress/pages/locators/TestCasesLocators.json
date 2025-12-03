@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "description": "Locators para la página de Test Cases",
+    "generatedAt": "2025-01-28T00:00:00.000Z",
+    "url": "/test-cases/"
+  },
+  "tituloTestCases": "h2",
+  "seccionesAcordeon": ".module-accordion",
+  "seccionHomePage": "#accordion-222-sub_row_1-0-1-0-0",
+  "seccionLogin": "#accordion-222-sub_row_1-0-1-0-2",
+  "seccionRegistro": "#accordion-222-sub_row_1-0-1-0-4",
+  "seccionShop": "#accordion-222-sub_row_1-0-1-0-6",
+  "seccionMyAccount": "#accordion-222-sub_row_1-0-1-0-8",
+  "btnExpandirSeccion": ".accordion-title a",
+  "listaCasos": ".ui.module-accordion li",
+  "tituloCaso": ".accordion-title a",
+  "contenidoCaso": ".accordion-content p",
+  "tituloSeccion": ".module-title",
+  "contenedorPrincipal": ".page-content",
+  "moduloAcordeon": ".module-accordion"
+} 

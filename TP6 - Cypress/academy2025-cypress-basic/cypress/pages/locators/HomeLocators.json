@@ -1,0 +1,6 @@
+{
+    "tituloHome" : ".title",
+    "btnBookStore" : ":nth-child(6) > .element-list > .menu-list > #item-2",
+    "btnGoToForm" : ":nth-child(2) > .group-header > .header-wrapper",
+    "btnPracticeForm" : ":nth-child(2) > .element-list > .menu-list > #item-0"
+}

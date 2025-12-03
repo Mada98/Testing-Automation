@@ -1,0 +1,5 @@
+{
+    "inpUsernameLogin": "#user-name",
+    "inpPassLogin": "#password",
+    "btnIniciarSesionLogin": "#login-button"
+}
