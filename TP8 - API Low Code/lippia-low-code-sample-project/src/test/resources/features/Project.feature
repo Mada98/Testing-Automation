@@ -11,10 +11,12 @@ Feature: Project
   Scenario Outline: Create a new project
     Given base url $(env.base_url_clockify)
     And endpoint /workspaces/$(env.workspace_id)/projects
+    * generar nombre random
     And body jsons/bodies/<body>
     When execute method POST
     Then the status code should be 201
     * print response
+    * print {{numeroRandom}}
 
     Examples:
       | body                           |
