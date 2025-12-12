@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pet>
+    <id>29920</id>
+    <Category>
+        <id>0</id>
+        <name>string</name>
+    </Category>
+    <name>doggie</name>
+    <photoUrls>
+        <photoUrl>string</photoUrl>
+    </photoUrls>
+    <tags>
+        <Tag>
+            <id>1</id>
+            <name>string</name>
+        </Tag>
+        <Tag>
+            <id>2</id>
+            <name>string1</name>
+        </Tag>
+    </tags>
+    <status>available</status>
+</Pet>
