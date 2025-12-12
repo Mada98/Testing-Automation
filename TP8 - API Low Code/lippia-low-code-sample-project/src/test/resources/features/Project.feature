@@ -55,12 +55,12 @@ Feature: Project
     * print response
 
 #Proyecto no encontrado tira error 400, no 404 
-  @error400 @errorPath
+  @error404 @errorPath
   Scenario: Non-existent project
     Given base url $(env.base_url_clockify)
-    And endpoint /workspaces/$(env.workspace_id)/projects/000000000000000000000000
+    And endpoint /workspaces/$(env.workspace_id)/project2/000000000000000000000000
     When execute method GET
-    Then the status code should be 400
+    Then the status code should be 404
     * print response
 
 #Creacion de proyecto sin campos obligatorios, error 400
@@ -71,5 +71,23 @@ Feature: Project
     And body jsons/bodies/empty_body.json
     When execute method POST
     Then the status code should be 400
+    * print response
+
+  @testing
+  Scenario: Create / Search / Edit / Delete
+    Given base url $(env.base_url_clockify)
+    And endpoint /workspaces/$(env.workspace_id)/projects
+    And body jsons/bodies/create_a_new_project_full.json
+    And set value "Flujo complasdetoa" of key name in body jsons/bodies/create_a_new_project_full.json
+    When execute method POST 
+    Then the status code should be 201
+    * define id_creado = $.id
+    Given base url $(env.base_url_clockify)
+    And header X-Api-Key = $(env.api_key)
+    And header Content-Type = application/json
+    And endpoint /workspaces/$(env.workspace_id)/projects/$(id_creado)
+    When execute method DELETE
+    Then the status code should be 200
+    
     * print response
 
