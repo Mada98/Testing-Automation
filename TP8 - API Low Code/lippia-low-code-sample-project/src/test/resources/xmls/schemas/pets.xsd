@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Pet" type="PetType"/>
+
+    <xs:complexType name="PetType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:integer"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="photoUrls" type="PhotoUrlsType"/>
+            <xs:element name="status" type="xs:string"/>
+            <xs:element name="tags" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="PhotoUrlsType">
+        <xs:sequence>
+            <xs:element name="photoUrl" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
