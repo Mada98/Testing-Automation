@@ -1,0 +1,19 @@
+stages:
+  - Test
+
+Test:
+  stage: Test
+  image: docker:24.0.5-dind
+  variables:
+    DOCKER_HOST: tcp://localhost:2375/
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+  services:
+    - name: docker:24.0.5-dind
+      alias: docker
+  script:
+    - docker compose -f docker-compose.yml up --abort-on-container-exit --exit-code-from lippia
+  artifacts:
+    when: always
+    paths:
+      - target/reports/

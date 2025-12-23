@@ -1,0 +1,13 @@
+package ar.steps;
+
+import io.cucumber.java.en.When;
+import io.lippia.api.lowcode.variables.VariablesManager;
+
+public class missteps {
+    @When("generar nombre random")
+    public void nombreRandom() throws UnsupportedEncodingException {
+        String numeroRandom = "817263";
+        VariablesManager.setVariable("numeroRandom",numeroRandom);
+    }
+}
+

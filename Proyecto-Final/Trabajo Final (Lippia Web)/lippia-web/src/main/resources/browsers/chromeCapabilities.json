@@ -1,0 +1,24 @@
+{
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "args": [
+      "--disable-infobars",
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--test-type",
+      "--ignore-certificate-errors",
+      "--start-maximized",
+      "--disable-blink-features=AutomationControlled",
+      "--disable-features=PasswordLeakDetection,PasswordManagerOnboarding",
+      "--incognito"
+    ],
+    "extensions": [],
+    "prefs": {
+      "credentials_enable_service": false,
+      "profile.password_manager_enabled": false,
+      "printing.enabled": false
+    }
+  },
+  "platform": "ANY",
+  "recordVideo": "false"
+}
